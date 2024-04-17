@@ -1,0 +1,32 @@
+.container {
+    position: relative;
+    width: 500px; /* Ajusta el ancho según sea necesario */
+}
+
+.image-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#prevBtn {
+    left: 0;
+}
+
+#nextBtn {
+    right: 0;
+}
